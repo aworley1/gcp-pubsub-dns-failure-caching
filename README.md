@@ -13,11 +13,11 @@
 ## Expected Result
 After enabling the network connection, the subsequent iterations should print `Success`
 
-(This is observed when using `com.google.cloud:libraries-bom:26.12.0`)
+(This is observed when using `com.google.cloud:libraries-bom:26.11.0`)
 
 ## Actual Result
 After enabling the network connection, the subsequent iterations continue to throw exceptions containing the message
 `UNAVAILABLE: Unable to resolve host pubsub.googleapis.com` for the next 30 minutes, before continuing to pull
 successfully.
 
-(This is observed when using `com.google.cloud:libraries-bom:26.11.0`)
+(This is observed when using `com.google.cloud:libraries-bom:26.12.0`)
