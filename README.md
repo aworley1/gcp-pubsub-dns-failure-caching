@@ -13,7 +13,7 @@
 ## Expected Result
 After enabling the network connection, the subsequent iterations should print `Success`
 
-(This is observed when using `com.google.cloud:libraries-bom:26.11.0`)
+(This is observed when using `com.google.cloud:libraries-bom:26.12.0`)
 
 ## Actual Result
 After enabling the network connection, the subsequent iterations continue to throw exceptions containing the message
